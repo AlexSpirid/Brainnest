@@ -48,7 +48,7 @@ public class BrainnestContactTest extends TestBase {
         });
 
         step("Check company Facebook is open", () -> {
-            switchTo().window(1);
+            switchTo().window(2);
             webdriver().shouldHave(url("https://www.facebook.com/brainnestde"));
         });
     }
