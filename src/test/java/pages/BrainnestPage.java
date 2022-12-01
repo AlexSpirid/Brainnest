@@ -1,19 +1,11 @@
-package configurations;
+package pages;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
+
 import static com.codeborne.selenide.Selenide.*;
 
-public class BrainnestPage {public BrainnestPage openPage() {
-    open("/");
-    return this;
-}
-
-    public BrainnestPage openContactPage() {
-        open("/contact");
-        return this;
-    }
-
+public class BrainnestPage {
     public ElementsCollection
             topMenu = $$("#comp-l3e1cy1a");
     public SelenideElement
@@ -22,5 +14,15 @@ public class BrainnestPage {public BrainnestPage openPage() {
             yellowContactUsButton = $("#comp-l3kfb6kw"),
             contactUsButton = $("#comp-l3e1cy1a3"),
             contactPageHeader = $("#comp-kic44u9d").$("h5");
+
+    public BrainnestPage openPage() {
+        open("/");
+        return this;
+    }
+
+    public BrainnestPage openContactPage() {
+        open("/contact");
+        return this;
+    }
 }
 
