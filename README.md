@@ -1,7 +1,7 @@
 # Brainnest# Test automation project for [Brainnest](https://www.brainnest.consulting/)
 
 <p  align="center">
-<img src="src/test/resources/images/logos/brainnest_logo.png" alt="BrainnestLogo" width="500">
+<img src="images/logos/brainnest_logo.png" alt="BrainnestLogo" width="500">
 </p>
 
 # <a name="TableOfContents">Table of contents</a>
@@ -16,27 +16,27 @@
 # <a name="Description">Description</a>
 The test project consists of Web tests.
 <p  align="center">
-<img src="src/test/resources/images/screenshots/main_page.png" alt="MeduzaMainPage" width="700">
-<img src="src/test/resources/images/screenshots/contact_page.png" alt="FooterEng" width="700">
-<img src="src/test/resources/images/screenshots/contact_us_button.png" alt="AuthRu" width="700">
+<img src="images/screenshots/main_page.png" alt="MainPage" width="700">
+<img src="images/screenshots/contact_page.png" alt="contact_page" width="700">
+<img src="images/screenshots/contact_us_button.png" alt="button" width="700">
 </p>
 Test-run GIF
 <p  align="center">
-<img src="src/test/resources/images/screenshots/Brainnest.gif" alt="test_run_gif" width="700">
+<img src="images/screenshots/Brainnest.gif" alt="test_run_gif" width="700">
 </p>
 
 ## <a name="Technology">Tools and a technologies</a>
 <p  align="center">
-  <code><img width="5%" title="IntelliJ IDEA" src="src/test/resources/images/logos/IDEA-logo.svg"></code>
-  <code><img width="5%" title="Java" src="src/test/resources/images/logos/java-logo.svg"></code>
-  <code><img width="5%" title="Selenide" src="src/test/resources/images/logos/selenide-logo.svg"></code>
-  <code><img width="5%" title="Selenoid" src="src/test/resources/images/logos/selenoid-logo.svg"></code>
-  <code><img width="5%" title="Gradle" src="src/test/resources/images/logos/gradle-logo.svg"></code>
-  <code><img width="5%" title="JUnit5" src="src/test/resources/images/logos/junit5-logo.svg"></code>
-  <code><img width="5%" title="Allure Report" src="src/test/resources/images/logos/allure-Report-logo.svg"></code>
-  <code><img width="5%" title="Github" src="src/test/resources/images/logos/git-logo.svg"></code>
-  <code><img width="5%" title="Jenkins" src="src/test/resources/images/logos/jenkins-logo.svg"></code>
-  <code><img width="5%" title="Telegram" src="src/test/resources/images/logos/Telegram.svg"></code>
+  <code><img width="5%" title="IntelliJ IDEA" src="images/logos/IDEA-logo.svg"></code>
+  <code><img width="5%" title="Java" src="images/logos/java-logo.svg"></code>
+  <code><img width="5%" title="Selenide" src="images/logos/selenide-logo.svg"></code>
+  <code><img width="5%" title="Selenoid" src="images/logos/selenoid-logo.svg"></code>
+  <code><img width="5%" title="Gradle" src="images/logos/gradle-logo.svg"></code>
+  <code><img width="5%" title="JUnit5" src="images/logos/junit5-logo.svg"></code>
+  <code><img width="5%" title="Allure Report" src="images/logos/allure-Report-logo.svg"></code>
+  <code><img width="5%" title="Github" src="images/logos/git-logo.svg"></code>
+  <code><img width="5%" title="Jenkins" src="images/logos/jenkins-logo.svg"></code>
+  <code><img width="5%" title="Telegram" src="images/logos/Telegram.svg"></code>
 </p>
 
 The autotests in this project are written in `Java` using `Selenide` framework.\
@@ -74,14 +74,14 @@ Additional parameters:
 ## <a name="RunInJenkins">Run in [Jenkins](https://jenkins.autotests.cloud/job/C15-anna_rkchv-Unit15_Project_HW/)</a>
 Main page of the build and parameters for Jenkins job:
 <p  align="center">
-<img src="src/test/resources/images/screenshots/jenkins_main_page.png" alt="JenkinsBuildMainPage" width="700">
-<img src="src/test/resources/images/screenshots/jenkins_params.png" alt="JenkinsBuildParameters" width="700">
+<img src="images/screenshots/jenkins_main_page.png" alt="JenkinsBuildMainPage" width="700">
+<img src="images/screenshots/jenkins_params.png" alt="JenkinsBuildParameters" width="700">
 </p>
 
 After the build is done the test results are available in <code>Allure Report</code>
 <p  align="center">
-<img src="src/test/resources/images/screenshots/allure_main_page.png" alt="JenkinsBuildParameters" width="700">
-<img src="src/test/resources/images/screenshots/allure_tests.png" alt="JenkinsBuildParameters" width="700">
+<img src="images/screenshots/allure_main_page.png" alt="JenkinsBuildParameters" width="700">
+<img src="images/screenshots/allure_tests.png" alt="JenkinsBuildParameters" width="700">
 </p>
 
 [Back to the table of contents ⬆](#TableOfContents)
@@ -90,7 +90,7 @@ After the build is done the test results are available in <code>Allure Report</c
 # <a name="TelegramNotifications">Telegram Notifications</a>
 Results of each build are sent to a specified telegram chat.
 <p  align="center">
-<img src="src/test/resources/images/screenshots/telegram_notification.png" alt="TelegramNotificaton" width="700">
+<img src="images/screenshots/telegram_notification.png" alt="TelegramNotificaton" width="700">
 </p>
 
 
