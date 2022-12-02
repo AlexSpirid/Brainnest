@@ -1,7 +1,10 @@
 plugins {
     id 'java-library'
-    id 'io.qameta.allure' version '2.9.6'
+    id "io.qameta.allure" version "2.11.0"
 }
+
+group 'ru.sber.rabota'
+version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -19,11 +22,11 @@ allure {
     report {
         version.set(allureVersion)
     }
-    adapter {
-        aspectjWeaver.set(true)
+    adapter { // отвечает за появление папочки build/allure-results
+        aspectjWeaver.set(true) //обработка аннотации @Step
         frameworks {
-            junit5 {
-                adapterVersion.set(allureVersion)
+            junit5 { //название фреймворка
+                adapterVersion.set(allureVersion) //версия интеграции фреймворка и Allure
             }
         }
     }

@@ -2,7 +2,6 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import pages.BrainnestPage;
-import configurations.TestBase;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -49,7 +48,7 @@ public class BrainnestContactTest extends TestBase {
         });
 
         step("Check company Facebook is open", () -> {
-            switchTo().window(2);
+            switchTo().window(1);
             webdriver().shouldHave(urlContaining("https://www.facebook.com"));
         });
     }
